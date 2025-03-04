@@ -1,28 +1,33 @@
 *** Settings ***
 Library  Browser
 
-*** Variables ***
-${search}  Ballon
+Resource  ../resources/homepage_page.resource
+Resource  ../resources/searchpage.resource
+Resource   ../resources/connexion.resource
+
+
+    
 
 *** Test Cases ***
 Test
-    Open Browser  https://www.decathlon.fr/
-    Get Element States  id=didomi-notice-agree-button  contains  visible
-    # Cliquer sur accepter les cookies
-    Click  xpath=//span[normalize-space()='Tout accepter']
-    Wait For Elements State  id=didomi-popup  detached
+   Given I open the homepage
     
-    # Mettre ballon dans la barre de recherche
-    Click  xpath=//*[@id="search-bar"]//input
-    Fill Text  xpath=//*[@id="search-bar"]//input  ${search}
-    #Vérifier l'url de la page
-    #Appuyer sur la loupe
-    Click  css=#search-bar button[type='submit']  
 
-    #Vérifier l'url de la page
-    ${current_url}=  Get Url
-    Should Be Equal As Strings  ${current_url}  https://www.decathlon.fr/search?Ntt=${search}
+ 
+Test2 
+   
+    Given I open the homepage  
+    When I search for "ballon" 
+    Then I am on the search page for "ballon"
 
-    #Vérifier la banniere de la page est bien affichée avec ballon
-    Get Element States  id=search-suggestions-banner  contains  visible 
-    Get Text    css=.searchText  contains  ${search}
+    # #Vérifier l'url de la page
+    # ${current_url}=  Get Url
+    # Should Be Equal As Strings  ${current_url}  https://www.decathlon.fr/search?Ntt=${search}
+
+
+test3
+    Given I open the homepage
+    when I got to the login form
+    Then I am on the login form
+    Then I write my mail " lou525@hotmail.fr"
+    then I have an error message
