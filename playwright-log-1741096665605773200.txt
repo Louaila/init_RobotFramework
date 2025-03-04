@@ -1,0 +1,42 @@
+{"level":30,"time":"2025-03-04T13:57:46.124Z","pid":7200,"hostname":"Vauban-1-6","msg":"Listening on 56324"}
+(node:7200) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-04T13:57:46.238Z","pid":7200,"hostname":"Vauban-1-6","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-04T13:57:46.369Z","pid":7200,"hostname":"Vauban-1-6","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-04T13:57:46.370Z","pid":7200,"hostname":"Vauban-1-6","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-04T13:57:46.370Z","pid":7200,"hostname":"Vauban-1-6","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-04T13:57:46.375Z","pid":7200,"hostname":"Vauban-1-6","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-04T13:57:46.376Z","pid":7200,"hostname":"Vauban-1-6","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-03-04T13:57:46.376Z","pid":7200,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-04T13:57:46.376Z","pid":7200,"hostname":"Vauban-1-6","msg":"Trace file: "}
+{"level":30,"time":"2025-03-04T13:57:46.389Z","pid":7200,"hostname":"Vauban-1-6","msg":"Changed active context"}
+{"level":30,"time":"2025-03-04T13:57:46.389Z","pid":7200,"hostname":"Vauban-1-6","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-04T13:57:46.395Z","pid":7200,"hostname":"Vauban-1-6","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-04T13:57:46.396Z","pid":7200,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-04T13:57:46.503Z","pid":7200,"hostname":"Vauban-1-6","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-04T13:57:46.503Z","pid":7200,"hostname":"Vauban-1-6","msg":"Changed active page"}
+{"level":30,"time":"2025-03-04T13:57:48.219Z","pid":7200,"hostname":"Vauban-1-6","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-04T13:57:48.224Z","pid":7200,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-04T13:57:48.224Z","pid":7200,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=search-bar in page."}
+{"level":30,"time":"2025-03-04T13:57:48.259Z","pid":7200,"hostname":"Vauban-1-6","msg":"Element id=search-bar is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=search-bar')\u001b[22m\n"}
+{"level":30,"time":"2025-03-04T13:57:48.259Z","pid":7200,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-04T13:57:48.275Z","pid":7200,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-04T13:57:48.279Z","pid":7200,"hostname":"Vauban-1-6","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-04T13:57:48.279Z","pid":7200,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=search-bar in page."}
+{"level":30,"time":"2025-03-04T13:57:48.285Z","pid":7200,"hostname":"Vauban-1-6","msg":"Error of node method  fillText"}
+================= Original suppressed error =================
+locator.fill: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]
+Call log:
+[2m  - waiting for locator('id=search-bar')[22m
+[2m    - locator resolved to <div id="search-bar" class="vtmn-relative vtmn-w-full vtmn-border-t vtmn-border-solid vtmn-border-border-secondary gt-tablet:vtmn-border-none open">…</div>[22m
+[2m    - fill("ballon")[22m
+[2m  - attempting fill action[22m
+[2m    - waiting for element to be visible, enabled and editable[22m
+
+    at fillText (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11847:17)
+    at async PlaywrightServer.fillText (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28)
+=============================================================
+{"level":30,"time":"2025-03-04T13:57:48.303Z","pid":7200,"hostname":"Vauban-1-6","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-04T13:57:48.303Z","pid":7200,"hostname":"Vauban-1-6","Take screenshot with options: ":{"path":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\initRobotFramework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-04T13:57:48.489Z","pid":7200,"hostname":"Vauban-1-6","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-03-04T14:10:11.730Z","pid":7200,"hostname":"Vauban-1-6","msg":"Removed page=50f2924b-abc2-4126-842b-562ad7276706 from context=9c3b8343-ba94-4db0-bece-28733b76f524 page stack"}

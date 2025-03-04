@@ -1,0 +1,50 @@
+{"level":30,"time":"2025-03-04T14:07:45.735Z","pid":27900,"hostname":"Vauban-1-6","msg":"Listening on 56761"}
+(node:27900) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-04T14:07:45.832Z","pid":27900,"hostname":"Vauban-1-6","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-04T14:07:45.986Z","pid":27900,"hostname":"Vauban-1-6","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-04T14:07:45.986Z","pid":27900,"hostname":"Vauban-1-6","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-04T14:07:45.986Z","pid":27900,"hostname":"Vauban-1-6","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-04T14:07:45.990Z","pid":27900,"hostname":"Vauban-1-6","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-04T14:07:45.991Z","pid":27900,"hostname":"Vauban-1-6","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-03-04T14:07:45.991Z","pid":27900,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-04T14:07:45.991Z","pid":27900,"hostname":"Vauban-1-6","msg":"Trace file: "}
+{"level":30,"time":"2025-03-04T14:07:46.004Z","pid":27900,"hostname":"Vauban-1-6","msg":"Changed active context"}
+{"level":30,"time":"2025-03-04T14:07:46.004Z","pid":27900,"hostname":"Vauban-1-6","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-04T14:07:46.009Z","pid":27900,"hostname":"Vauban-1-6","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-04T14:07:46.009Z","pid":27900,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-04T14:07:46.112Z","pid":27900,"hostname":"Vauban-1-6","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-04T14:07:46.112Z","pid":27900,"hostname":"Vauban-1-6","msg":"Changed active page"}
+{"level":30,"time":"2025-03-04T14:07:47.507Z","pid":27900,"hostname":"Vauban-1-6","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-04T14:07:47.512Z","pid":27900,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-04T14:07:47.512Z","pid":27900,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-04T14:07:47.546Z","pid":27900,"hostname":"Vauban-1-6","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
+{"level":30,"time":"2025-03-04T14:07:47.546Z","pid":27900,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-04T14:07:47.560Z","pid":27900,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-04T14:07:47.563Z","pid":27900,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-04T14:07:47.563Z","pid":27900,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-04T14:07:47.720Z","pid":27900,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-04T14:07:47.726Z","pid":27900,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-04T14:07:47.726Z","pid":27900,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-popup in page."}
+{"level":30,"time":"2025-03-04T14:07:47.977Z","pid":27900,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-04T14:07:47.983Z","pid":27900,"hostname":"Vauban-1-6","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-04T14:07:47.983Z","pid":27900,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=[@id=\"search-bar\"] in page."}
+{"level":30,"time":"2025-03-04T14:07:47.994Z","pid":27900,"hostname":"Vauban-1-6","msg":"Error of node method  fillText"}
+================= Original suppressed error =================
+locator.fill: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '[@id="search-bar"]' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:41:25)
+    at InjectedScript._queryEngineAll (<anonymous>:5916:49)
+    at InjectedScript.querySelectorAll (<anonymous>:5903:30)
+    at eval (eval at evaluate (:234:30), <anonymous>:5:35)
+    at UtilityScript.evaluate (<anonymous>:236:17)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+[2m  - waiting for locator('xpath=[@id="search-bar"]')[22m
+
+    at fillText (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11847:17)
+    at async PlaywrightServer.fillText (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28)
+=============================================================
+{"level":30,"time":"2025-03-04T14:07:48.016Z","pid":27900,"hostname":"Vauban-1-6","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-04T14:07:48.017Z","pid":27900,"hostname":"Vauban-1-6","Take screenshot with options: ":{"path":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\initRobotFramework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-04T14:07:48.270Z","pid":27900,"hostname":"Vauban-1-6","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-03-04T14:10:09.769Z","pid":27900,"hostname":"Vauban-1-6","msg":"Removed page=59fc35b1-120c-4519-aacf-4dc512ab9613 from context=9192c044-71da-4506-890d-5174df2a6a2e page stack"}
