@@ -3,7 +3,7 @@
 Library   Browser
 
 *** Keywords ***
-I open the homepage
+I am on the homepage
 
     Open Browser  https://www.decathlon.fr/
     Get Element States  id=didomi-notice-agree-button  contains  visible
@@ -23,5 +23,7 @@ I search for "${search}"
 #tu mets deux espaces 
 
 
+I go to the login form
+    Click    css=.tool--account a
 
  

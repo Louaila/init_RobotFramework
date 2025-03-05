@@ -3,20 +3,19 @@ Library  Browser
 
 Resource  ../resources/homepage_page.resource
 Resource  ../resources/searchpage.resource
-Resource   ../resources/connexion.resource
-
+Resource   ../resources/login.resource
 
     
 
 *** Test Cases ***
 Test
-   Given I open the homepage
+   Given I am on the homepage
     
 
  
 Test2 
    
-    Given I open the homepage  
+    Given I am on the homepage
     When I search for "ballon" 
     Then I am on the search page for "ballon"
 
@@ -26,8 +25,8 @@ Test2
 
 
 test3
-    Given I open the homepage
-    when I got to the login form
+    Given I am on the homepage
+    When I go to the login form
     Then I am on the login form
-    Then I write my mail " lou525@hotmail.fr"
-    then I have an error message
+    When I try to connect with the email address "toto@yopmail;com"
+    Then I have an error for a wrong email address
