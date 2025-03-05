@@ -1,0 +1,210 @@
+{"level":30,"time":"2025-03-05T08:45:40.735Z","pid":35376,"hostname":"Vauban-1-6","msg":"Listening on 63136"}
+(node:35376) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-05T08:45:40.823Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-05T08:45:40.941Z","pid":35376,"hostname":"Vauban-1-6","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-05T08:45:40.942Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-05T08:45:40.942Z","pid":35376,"hostname":"Vauban-1-6","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-05T08:45:40.948Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-05T08:45:40.948Z","pid":35376,"hostname":"Vauban-1-6","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-03-05T08:45:40.948Z","pid":35376,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-05T08:45:40.948Z","pid":35376,"hostname":"Vauban-1-6","msg":"Trace file: "}
+{"level":30,"time":"2025-03-05T08:45:40.961Z","pid":35376,"hostname":"Vauban-1-6","msg":"Changed active context"}
+{"level":30,"time":"2025-03-05T08:45:40.962Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-05T08:45:40.967Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-05T08:45:40.967Z","pid":35376,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-05T08:45:41.056Z","pid":35376,"hostname":"Vauban-1-6","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-05T08:45:41.056Z","pid":35376,"hostname":"Vauban-1-6","msg":"Changed active page"}
+{"level":30,"time":"2025-03-05T08:45:42.571Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-05T08:45:42.576Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:42.577Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-05T08:45:42.619Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:42.619Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:42.634Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:42.638Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-05T08:45:42.638Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//span[normalize-space()='Tout accepter'] in page."}
+{"level":30,"time":"2025-03-05T08:45:42.786Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-05T08:45:42.791Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-05T08:45:42.791Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-popup in page."}
+{"level":30,"time":"2025-03-05T08:45:42.825Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-05T08:45:42.830Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-05T08:45:42.830Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"search-bar\"]//input in page."}
+{"level":30,"time":"2025-03-05T08:45:43.012Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-05T08:45:43.018Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-05T08:45:43.018Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=#search-bar button[type='submit'] in page."}
+{"level":30,"time":"2025-03-05T08:45:44.332Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-05T08:45:44.337Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:44.337Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=search-suggestions-banner in page."}
+{"level":30,"time":"2025-03-05T08:45:44.542Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element id=search-suggestions-banner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=search-suggestions-banner')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:44.542Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:44.605Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:44.608Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-05T08:45:44.609Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=.searchText in page."}
+{"level":30,"time":"2025-03-05T08:45:45.336Z","pid":35376,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=.searchText containing ballon"}
+{"level":30,"time":"2025-03-05T08:45:45.336Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-05T08:45:45.342Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.342Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.461Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.461Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.524Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.536Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.536Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.563Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.563Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.574Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.586Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.586Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.606Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.606Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.619Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.631Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.631Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.649Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.649Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.660Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.671Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.671Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.684Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.684Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.698Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.710Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.710Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.722Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.722Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.730Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.742Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.742Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.755Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.755Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.762Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.774Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.774Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.788Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.788Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.796Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.808Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.808Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.847Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.847Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.875Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.887Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.887Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.899Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.899Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.910Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.922Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.922Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.934Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.934Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.942Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.954Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.954Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.966Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.966Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:45.973Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.985Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:45.985Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:45.996Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:45.996Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.003Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.015Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.015Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.028Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.028Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.035Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.047Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.047Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.058Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.058Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.065Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.077Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.077Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.089Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.089Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.096Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.109Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.109Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.122Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.122Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.128Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.140Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.140Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.153Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.153Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.162Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.174Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.174Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.187Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.187Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.196Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.208Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.208Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.219Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.219Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.228Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.240Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.240Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.251Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.252Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.261Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.273Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.273Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.287Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.287Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.295Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.306Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.306Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.319Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.319Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.327Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.340Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.340Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.351Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.351Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.358Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.370Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.370Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.408Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.408Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.419Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.432Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.432Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.446Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.446Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.454Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.467Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.467Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.479Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.479Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.486Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.499Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.499Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.512Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.512Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.520Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.532Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.533Z","pid":35376,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath= //*[@id=\"list-sort-select\"]/option[1] in page."}
+{"level":30,"time":"2025-03-05T08:45:46.546Z","pid":35376,"hostname":"Vauban-1-6","msg":"Element xpath= //*[@id=\"list-sort-select\"]/option[1] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('xpath= //*[@id=\"list-sort-select\"]/option[1]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T08:45:46.546Z","pid":35376,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T08:45:46.555Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T08:45:46.557Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-05T08:45:46.557Z","pid":35376,"hostname":"Vauban-1-6","Take screenshot with options: ":{"path":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\initRobotFramework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-05T08:45:46.699Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-03-05T08:45:52.310Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:52.313Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:52.316Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:52.318Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:52.319Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:52.320Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:52.324Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:52.326Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:52.328Z","pid":35376,"hostname":"Vauban-1-6","msg":"Changed active context"}
+{"level":30,"time":"2025-03-05T08:45:52.328Z","pid":35376,"hostname":"Vauban-1-6","msg":"Changing current active page: page=3f117062-f93e-40c8-9695-9550f1009aa6"}
+{"level":30,"time":"2025-03-05T08:45:52.328Z","pid":35376,"hostname":"Vauban-1-6","msg":"Changed active page"}
+{"level":30,"time":"2025-03-05T08:45:52.334Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-03-05T08:45:52.352Z","pid":35376,"hostname":"Vauban-1-6","msg":"Removed page=b04f1ea9-fefc-4cef-9861-963c92a96f71 from context=954988db-adb9-4762-83c6-f47872a8ad73 page stack"}
+{"level":30,"time":"2025-03-05T08:45:52.366Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-03-05T08:45:52.372Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:52.372Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-05T08:45:54.913Z","pid":35376,"hostname":"Vauban-1-6","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-05T08:45:55.025Z","pid":35376,"hostname":"Vauban-1-6","msg":"End of node method closeAllBrowsers"}

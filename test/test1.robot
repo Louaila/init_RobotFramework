@@ -4,6 +4,7 @@ Library  Browser
 Resource  ../resources/homepage_page.resource
 Resource  ../resources/searchpage.resource
 Resource   ../resources/login.resource
+Resource   ../resources/sort.resource
 
     
 
@@ -30,3 +31,12 @@ test3
     Then I am on the login form
     When I try to connect with the email address "toto@yopmail;com"
     Then I have an error for a wrong email address
+
+
+test4
+    Given I am on the homepage
+    When I search for "ballon" 
+    Then I am on the search page for "ballon"
+    And the select sorting method is "Meilleures ventes"
+    When I sort the list by "Note des clients"
+    Then the select sorting method is "Note des clients"

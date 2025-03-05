@@ -11,3 +11,5 @@ I try to connect with the email address "${email}"
 
 I have an error for a wrong email address
     Get Element States    css=.textfield-error-message    contains  visible
+
+   

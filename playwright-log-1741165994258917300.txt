@@ -1,0 +1,508 @@
+{"level":30,"time":"2025-03-05T09:13:14.819Z","pid":33748,"hostname":"Vauban-1-6","msg":"Listening on 64722"}
+(node:33748) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-05T09:13:14.902Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-05T09:13:15.047Z","pid":33748,"hostname":"Vauban-1-6","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-05T09:13:15.048Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-05T09:13:15.048Z","pid":33748,"hostname":"Vauban-1-6","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-05T09:13:15.053Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-05T09:13:15.054Z","pid":33748,"hostname":"Vauban-1-6","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-03-05T09:13:15.054Z","pid":33748,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-05T09:13:15.054Z","pid":33748,"hostname":"Vauban-1-6","msg":"Trace file: "}
+{"level":30,"time":"2025-03-05T09:13:15.068Z","pid":33748,"hostname":"Vauban-1-6","msg":"Changed active context"}
+{"level":30,"time":"2025-03-05T09:13:15.068Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-05T09:13:15.073Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-05T09:13:15.074Z","pid":33748,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-05T09:13:15.180Z","pid":33748,"hostname":"Vauban-1-6","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-05T09:13:15.180Z","pid":33748,"hostname":"Vauban-1-6","msg":"Changed active page"}
+{"level":30,"time":"2025-03-05T09:13:16.110Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-05T09:13:16.117Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T09:13:16.118Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-05T09:13:16.370Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T09:13:16.382Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T09:13:16.382Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-05T09:13:16.636Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T09:13:16.649Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T09:13:16.649Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-05T09:13:16.750Z","pid":33748,"hostname":"Vauban-1-6","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T09:13:16.750Z","pid":33748,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T09:13:16.777Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T09:13:16.781Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-05T09:13:16.781Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//span[normalize-space()='Tout accepter'] in page."}
+{"level":30,"time":"2025-03-05T09:13:16.942Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-05T09:13:16.947Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-05T09:13:16.947Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-popup in page."}
+{"level":30,"time":"2025-03-05T09:13:16.961Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-05T09:13:16.969Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-05T09:13:16.969Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"search-bar\"]//input in page."}
+{"level":30,"time":"2025-03-05T09:13:17.168Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-05T09:13:17.171Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-05T09:13:17.171Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=#search-bar button[type='submit'] in page."}
+{"level":30,"time":"2025-03-05T09:13:18.243Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-05T09:13:18.249Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T09:13:18.249Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=search-suggestions-banner in page."}
+{"level":30,"time":"2025-03-05T09:13:18.787Z","pid":33748,"hostname":"Vauban-1-6","msg":"Element id=search-suggestions-banner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=search-suggestions-banner')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T09:13:18.787Z","pid":33748,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T09:13:19.341Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T09:13:19.345Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-05T09:13:19.346Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=.searchText in page."}
+{"level":30,"time":"2025-03-05T09:13:19.469Z","pid":33748,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=.searchText containing ballon"}
+{"level":30,"time":"2025-03-05T09:13:19.469Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-05T09:13:19.473Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.473Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.474Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.504Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.504Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.505Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.536Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.536Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.537Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.566Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.566Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.568Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.597Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.597Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.599Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.628Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.628Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.628Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.658Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.659Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.660Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.690Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.690Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.690Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.719Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.719Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.720Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.751Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.751Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:19.752Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.779Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.779Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:19.780Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.808Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.808Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:19.809Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.836Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.836Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:19.837Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.866Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.866Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:19.867Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.896Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.896Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:19.897Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.926Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.926Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:19.926Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.953Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.953Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:19.954Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:19.981Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:19.981Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:19.982Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.009Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.009Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.010Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.038Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.038Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.039Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.072Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.072Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.073Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.102Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.102Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.103Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.130Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.130Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+{"level":30,"time":"2025-03-05T09:13:20.130Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.159Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.159Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.160Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.186Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.186Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.187Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.215Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.215Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+{"level":30,"time":"2025-03-05T09:13:20.216Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+================= Original suppressed error =================
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.247Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.247Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.248Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.277Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.277Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.278Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.303Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.303Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.304Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.332Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.332Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.333Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.359Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.359Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.360Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.390Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.390Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.390Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.418Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.418Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.419Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.444Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.444Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.444Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.471Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method getSelectContent"}
+{"level":30,"time":"2025-03-05T09:13:20.471Z","pid":33748,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with @id=list-sort-select in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-03-05T09:13:20.472Z","pid":33748,"hostname":"Vauban-1-6","msg":"Error of node method  getSelectContent"}
+locator.elementHandle: Unsupported token "@id" while parsing css selector "@id=list-sort-select". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for @id=list-sort-select[22m
+
+    at getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11569:17)
+    at async PlaywrightServer.getSelectContent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T09:13:20.495Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-05T09:13:20.495Z","pid":33748,"hostname":"Vauban-1-6","Take screenshot with options: ":{"path":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\initRobotFramework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-05T09:13:20.642Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method takeScreenshot"}
