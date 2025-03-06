@@ -1,0 +1,135 @@
+{"level":30,"time":"2025-03-05T13:52:30.660Z","pid":28676,"hostname":"Vauban-1-6","msg":"Listening on 57382"}
+(node:28676) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-05T13:52:30.757Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-05T13:52:30.887Z","pid":28676,"hostname":"Vauban-1-6","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-05T13:52:30.887Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-05T13:52:30.887Z","pid":28676,"hostname":"Vauban-1-6","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-05T13:52:30.892Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-05T13:52:30.893Z","pid":28676,"hostname":"Vauban-1-6","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-03-05T13:52:30.893Z","pid":28676,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-05T13:52:30.893Z","pid":28676,"hostname":"Vauban-1-6","msg":"Trace file: "}
+{"level":30,"time":"2025-03-05T13:52:30.904Z","pid":28676,"hostname":"Vauban-1-6","msg":"Changed active context"}
+{"level":30,"time":"2025-03-05T13:52:30.904Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-05T13:52:30.907Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-05T13:52:30.908Z","pid":28676,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-05T13:52:30.996Z","pid":28676,"hostname":"Vauban-1-6","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-05T13:52:30.996Z","pid":28676,"hostname":"Vauban-1-6","msg":"Changed active page"}
+{"level":30,"time":"2025-03-05T13:52:32.521Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-05T13:52:32.526Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T13:52:32.526Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-05T13:52:32.559Z","pid":28676,"hostname":"Vauban-1-6","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T13:52:32.559Z","pid":28676,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T13:52:32.575Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T13:52:32.579Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-05T13:52:32.579Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//span[normalize-space()='Tout accepter'] in page."}
+{"level":30,"time":"2025-03-05T13:52:32.736Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-05T13:52:32.740Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-05T13:52:32.741Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-popup in page."}
+{"level":30,"time":"2025-03-05T13:52:32.748Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-05T13:52:32.754Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-05T13:52:32.754Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"search-bar\"]//input in page."}
+{"level":30,"time":"2025-03-05T13:52:32.916Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-05T13:52:32.920Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-05T13:52:32.920Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=#search-bar button[type='submit'] in page."}
+{"level":30,"time":"2025-03-05T13:52:33.850Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-05T13:52:33.855Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-05T13:52:33.855Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=search-suggestions-banner in page."}
+{"level":30,"time":"2025-03-05T13:52:34.417Z","pid":28676,"hostname":"Vauban-1-6","msg":"Element id=search-suggestions-banner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=search-suggestions-banner')\u001b[22m\n"}
+{"level":30,"time":"2025-03-05T13:52:34.417Z","pid":28676,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-05T13:52:34.936Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-05T13:52:34.940Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-05T13:52:34.940Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=.searchText in page."}
+{"level":30,"time":"2025-03-05T13:52:34.975Z","pid":28676,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=.searchText containing ballon"}
+{"level":30,"time":"2025-03-05T13:52:34.976Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-05T13:52:34.980Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-05T13:52:34.980Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=(//*[contains(concat(' ', normalize-space(@class), ' '), ' product-list ')]/*)[1]//a[./img] in page."}
+{"level":30,"time":"2025-03-05T13:52:35.896Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-05T13:52:35.900Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-05T13:52:35.900Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-03-05T13:52:36.490Z","pid":28676,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=h1 containing BALLON DE GYM RÉSISTANT - Swissball - 65 CM - Argent"}
+{"level":30,"time":"2025-03-05T13:52:36.490Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-05T13:52:36.495Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-05T13:52:36.495Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=.conversion-zone__purchase-cta in page."}
+{"level":30,"time":"2025-03-05T13:52:37.145Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-05T13:52:37.151Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-05T13:52:37.151Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=#popin-cross-sell [slot='title'] in page."}
+{"level":30,"time":"2025-03-05T13:52:38.074Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-05T13:52:38.079Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-05T13:52:38.079Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"search-bar\"]//input in page."}
+{"level":30,"time":"2025-03-05T13:52:38.088Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-05T13:52:38.091Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-05T13:52:38.091Z","pid":28676,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=#search-bar button[type='submit'] in page."}
+{"level":30,"time":"2025-03-05T13:52:48.110Z","pid":28676,"hostname":"Vauban-1-6","msg":"Error of node method  click"}
+================= Original suppressed error =================
+locator.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('#search-bar button[type=\'submit\']')[22m
+[2m    - locator resolved to <button type="submit" class="vtmn-btn vtmn-btn_variant--ghost vtmn-btn_size--medium vtmn-btn--icon-alone">…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <header class="ecomm-sidepanel__header svelte-1y7rrv0">…</header> from <aside tabindex="-1" data-type="popup-sidepanel">…</aside> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <span slot="title" class="vtmn-flex vtmn-items-center">…</span> from <aside tabindex="-1" data-type="popup-sidepanel">…</aside> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <span slot="title" class="vtmn-flex vtmn-items-center">…</span> from <aside tabindex="-1" data-type="popup-sidepanel">…</aside> subtree intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <header class="ecomm-sidepanel__header svelte-1y7rrv0">…</header> from <aside tabindex="-1" data-type="popup-sidepanel">…</aside> subtree intercepts pointer events[22m
+[2m  4 × retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <span slot="title" class="vtmn-flex vtmn-items-center">…</span> from <aside tabindex="-1" data-type="popup-sidepanel">…</aside> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <span slot="title" class="vtmn-flex vtmn-items-center">…</span> from <aside tabindex="-1" data-type="popup-sidepanel">…</aside> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <header class="ecomm-sidepanel__header svelte-1y7rrv0">…</header> from <aside tabindex="-1" data-type="popup-sidepanel">…</aside> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <header class="ecomm-sidepanel__header svelte-1y7rrv0">…</header> from <aside tabindex="-1" data-type="popup-sidepanel">…</aside> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+    at internalClick (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11890:19)
+    at async click (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11871:18)
+    at async PlaywrightServer.click (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-03-05T13:52:48.129Z","pid":28676,"hostname":"Vauban-1-6","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-05T13:52:48.129Z","pid":28676,"hostname":"Vauban-1-6","Take screenshot with options: ":{"path":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\initRobotFramework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-05T13:52:48.342Z","pid":28676,"hostname":"Vauban-1-6","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-03-05T13:53:33.546Z","pid":28676,"hostname":"Vauban-1-6","msg":"Removed page=b6eb99e8-5ef9-4f74-aaf7-050e7b8cd333 from context=3928a705-ed5b-4947-88ab-e48ef3ae6a82 page stack"}

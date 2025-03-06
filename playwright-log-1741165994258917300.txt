@@ -506,3 +506,4 @@ Call log:
 {"level":30,"time":"2025-03-05T09:13:20.495Z","pid":33748,"hostname":"Vauban-1-6","msg":"Start of node method takeScreenshot"}
 {"level":30,"time":"2025-03-05T09:13:20.495Z","pid":33748,"hostname":"Vauban-1-6","Take screenshot with options: ":{"path":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\initRobotFramework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
 {"level":30,"time":"2025-03-05T09:13:20.642Z","pid":33748,"hostname":"Vauban-1-6","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-03-05T10:29:00.956Z","pid":33748,"hostname":"Vauban-1-6","msg":"Removed page=e210728b-ee9d-4d03-b462-7fb454e2c03d from context=3dda5d6d-20ae-421f-947d-772defbd06aa page stack"}

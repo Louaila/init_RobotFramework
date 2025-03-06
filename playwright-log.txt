@@ -1,588 +1,67 @@
-{"level":30,"time":"2025-03-05T09:05:50.393Z","pid":9772,"hostname":"Vauban-1-6","msg":"Listening on 64316"}
-(node:9772) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-03-06T08:10:37.634Z","pid":33528,"hostname":"Vauban-1-6","msg":"Listening on 63264"}
+(node:33528) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-03-05T09:05:50.471Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-03-05T09:05:50.612Z","pid":9772,"hostname":"Vauban-1-6","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
-{"level":30,"time":"2025-03-05T09:05:50.613Z","pid":9772,"hostname":"Vauban-1-6","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-03-05T09:05:50.613Z","pid":9772,"hostname":"Vauban-1-6","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-03-05T09:05:50.619Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-03-05T09:05:50.619Z","pid":9772,"hostname":"Vauban-1-6","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-03-05T09:05:50.619Z","pid":9772,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-03-05T09:05:50.619Z","pid":9772,"hostname":"Vauban-1-6","msg":"Trace file: "}
-{"level":30,"time":"2025-03-05T09:05:50.632Z","pid":9772,"hostname":"Vauban-1-6","msg":"Changed active context"}
-{"level":30,"time":"2025-03-05T09:05:50.632Z","pid":9772,"hostname":"Vauban-1-6","msg":"End of node method newContext"}
-{"level":30,"time":"2025-03-05T09:05:50.635Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-03-05T09:05:50.636Z","pid":9772,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-03-05T09:05:50.726Z","pid":9772,"hostname":"Vauban-1-6","msg":"Video path: undefined"}
-{"level":30,"time":"2025-03-05T09:05:50.726Z","pid":9772,"hostname":"Vauban-1-6","msg":"Changed active page"}
-{"level":30,"time":"2025-03-05T09:05:52.416Z","pid":9772,"hostname":"Vauban-1-6","msg":"End of node method newPage"}
-{"level":30,"time":"2025-03-05T09:05:52.421Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:52.421Z","pid":9772,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
-{"level":30,"time":"2025-03-05T09:05:52.454Z","pid":9772,"hostname":"Vauban-1-6","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
-{"level":30,"time":"2025-03-05T09:05:52.454Z","pid":9772,"hostname":"Vauban-1-6","msg":"Checking checked state"}
-{"level":30,"time":"2025-03-05T09:05:52.473Z","pid":9772,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:52.477Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-05T09:05:52.477Z","pid":9772,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//span[normalize-space()='Tout accepter'] in page."}
-{"level":30,"time":"2025-03-05T09:05:52.638Z","pid":9772,"hostname":"Vauban-1-6","msg":"End of node method click"}
-{"level":30,"time":"2025-03-05T09:05:52.642Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-03-05T09:05:52.643Z","pid":9772,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-popup in page."}
-{"level":30,"time":"2025-03-05T09:05:52.658Z","pid":9772,"hostname":"Vauban-1-6","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-03-05T09:05:52.664Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-03-05T09:05:52.664Z","pid":9772,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"search-bar\"]//input in page."}
-{"level":30,"time":"2025-03-05T09:05:52.859Z","pid":9772,"hostname":"Vauban-1-6","msg":"End of node method fillText"}
-{"level":30,"time":"2025-03-05T09:05:52.865Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method click"}
-{"level":30,"time":"2025-03-05T09:05:52.865Z","pid":9772,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=#search-bar button[type='submit'] in page."}
-{"level":30,"time":"2025-03-05T09:05:53.385Z","pid":9772,"hostname":"Vauban-1-6","msg":"End of node method click"}
-{"level":30,"time":"2025-03-05T09:05:53.391Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.391Z","pid":9772,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=search-suggestions-banner in page."}
-{"level":30,"time":"2025-03-05T09:05:53.440Z","pid":9772,"hostname":"Vauban-1-6","msg":"Removed page=98b7ec05-ba15-4007-b363-49f80f9af01f from context=960d01c6-0119-4d5e-956c-d556fcf0c4da page stack"}
-{"level":50,"time":"2025-03-05T09:05:53.440Z","pid":9772,"hostname":"Vauban-1-6","err":{"type":"TargetClosedError","message":"locator.waitFor: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('id=search-suggestions-banner')\u001b[22m\n","stack":"locator.waitFor: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('id=search-suggestions-banner')\u001b[22m\n\n    at getElementStates (C:\\Users\\Administrateur\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js:11675:19)\n    at async PlaywrightServer.getElementStates (C:\\Users\\Administrateur\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js:13132:28)"},"msg":"locator.waitFor: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('id=search-suggestions-banner')\u001b[22m\n"}
-{"level":30,"time":"2025-03-05T09:05:53.441Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-================= Original suppressed error =================
-locator.waitFor: Target page, context or browser has been closed
-Call log:
-[2m  - waiting for locator('id=search-suggestions-banner')[22m
-
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11675:19)
-    at async PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28)
-=============================================================
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.481Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.482Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.519Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.519Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.553Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.553Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.587Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.587Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.614Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.615Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.641Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.641Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.669Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.669Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.700Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.700Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.729Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.729Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.756Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.757Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.784Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.784Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.811Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.812Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.842Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.842Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.873Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.873Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.901Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.901Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.927Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.928Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.956Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.956Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:53.982Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:53.982Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.008Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.008Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.035Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.035Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.062Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.062Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.089Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.089Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.120Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.120Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.150Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.150Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.177Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.177Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.205Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.205Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.234Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.234Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.261Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.261Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.291Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.291Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.318Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.318Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.345Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.345Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.372Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.372Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.399Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.399Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.428Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.428Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.456Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
-================= Original suppressed error =================
-Error: Could not find active page
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at findLocator (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
-    at getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11672:25)
-    at PlaywrightServer.getElementStates (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.456Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  getElementStates"}
-{"level":30,"time":"2025-03-05T09:05:54.472Z","pid":9772,"hostname":"Vauban-1-6","msg":"Start of node method takeScreenshot"}
-================= Original suppressed error =================
-Error: Tried to take screenshot, but no page was open.
-    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
-    at takeScreenshot (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10769:3)
-    at PlaywrightServer.takeScreenshot (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
-    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
-=============================================================
-{"level":30,"time":"2025-03-05T09:05:54.472Z","pid":9772,"hostname":"Vauban-1-6","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-03-06T08:10:37.736Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-06T08:10:37.872Z","pid":33528,"hostname":"Vauban-1-6","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-06T08:10:37.873Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-06T08:10:37.873Z","pid":33528,"hostname":"Vauban-1-6","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-06T08:10:37.878Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-06T08:10:37.879Z","pid":33528,"hostname":"Vauban-1-6","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-03-06T08:10:37.879Z","pid":33528,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-06T08:10:37.879Z","pid":33528,"hostname":"Vauban-1-6","msg":"Trace file: "}
+{"level":30,"time":"2025-03-06T08:10:37.893Z","pid":33528,"hostname":"Vauban-1-6","msg":"Changed active context"}
+{"level":30,"time":"2025-03-06T08:10:37.893Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-06T08:10:37.897Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-06T08:10:37.897Z","pid":33528,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-06T08:10:37.991Z","pid":33528,"hostname":"Vauban-1-6","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-06T08:10:37.991Z","pid":33528,"hostname":"Vauban-1-6","msg":"Changed active page"}
+{"level":30,"time":"2025-03-06T08:10:39.612Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-06T08:10:39.617Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-06T08:10:39.618Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-06T08:10:39.648Z","pid":33528,"hostname":"Vauban-1-6","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
+{"level":30,"time":"2025-03-06T08:10:39.648Z","pid":33528,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-06T08:10:39.670Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-06T08:10:39.674Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-06T08:10:39.674Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//span[normalize-space()='Tout accepter'] in page."}
+{"level":30,"time":"2025-03-06T08:10:39.830Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-06T08:10:39.835Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-06T08:10:39.835Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-popup in page."}
+{"level":30,"time":"2025-03-06T08:10:39.873Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-06T08:10:39.879Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-06T08:10:39.879Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"search-bar\"]//input in page."}
+{"level":30,"time":"2025-03-06T08:10:40.065Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-06T08:10:40.072Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-06T08:10:40.072Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=#search-bar button[type='submit'] in page."}
+{"level":30,"time":"2025-03-06T08:10:40.835Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-06T08:10:40.840Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-06T08:10:40.841Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=search-suggestions-banner in page."}
+{"level":30,"time":"2025-03-06T08:10:41.055Z","pid":33528,"hostname":"Vauban-1-6","msg":"Element id=search-suggestions-banner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=search-suggestions-banner')\u001b[22m\n"}
+{"level":30,"time":"2025-03-06T08:10:41.055Z","pid":33528,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-06T08:10:41.925Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-06T08:10:41.929Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:41.929Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=.searchText in page."}
+{"level":30,"time":"2025-03-06T08:10:41.999Z","pid":33528,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=.searchText containing ballon"}
+{"level":30,"time":"2025-03-06T08:10:41.999Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:42.003Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-06T08:10:42.003Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=(//*[contains(concat(' ', normalize-space(@class), ' '), ' product-list ')]/*)[1]//a[./img] in page."}
+{"level":30,"time":"2025-03-06T08:10:42.564Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-06T08:10:42.568Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:42.569Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-03-06T08:10:42.930Z","pid":33528,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=h1 containing Ballon de Gymnastique Rythmique de 165 mm, rose ultra fluo"}
+{"level":30,"time":"2025-03-06T08:10:42.930Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:42.942Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:42.942Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-03-06T08:10:43.757Z","pid":33528,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=h1 containing Ballon de Gymnastique Rythmique de 165 mm, rose ultra fluo"}
+{"level":30,"time":"2025-03-06T08:10:43.757Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:43.769Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:43.770Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-03-06T08:10:43.890Z","pid":33528,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=h1 containing Ballon de Gymnastique Rythmique de 165 mm, rose ultra fluo"}
+{"level":30,"time":"2025-03-06T08:10:43.890Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:43.902Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:43.902Z","pid":33528,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-03-06T08:10:43.980Z","pid":33528,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=h1 containing Ballon de Gymnastique Rythmique de 165 mm, rose ultra fluo"}
+{"level":30,"time":"2025-03-06T08:10:43.980Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-06T08:10:43.983Z","pid":33528,"hostname":"Vauban-1-6","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-06T08:10:43.984Z","pid":33528,"hostname":"Vauban-1-6","Take screenshot with options: ":{"path":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\initRobotFramework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-06T08:10:44.144Z","pid":33528,"hostname":"Vauban-1-6","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-03-06T08:11:29.706Z","pid":33528,"hostname":"Vauban-1-6","msg":"Removed page=899c48dc-c402-418c-9f77-5faa9f709a7e from context=47d2d0ee-295a-46c2-ab72-a0dd47cad604 page stack"}

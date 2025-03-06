@@ -1,0 +1,274 @@
+{"level":30,"time":"2025-03-06T08:12:25.033Z","pid":27516,"hostname":"Vauban-1-6","msg":"Listening on 63393"}
+(node:27516) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-06T08:12:25.145Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-06T08:12:25.277Z","pid":27516,"hostname":"Vauban-1-6","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-06T08:12:25.278Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-06T08:12:25.278Z","pid":27516,"hostname":"Vauban-1-6","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-06T08:12:25.283Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-06T08:12:25.283Z","pid":27516,"hostname":"Vauban-1-6","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-03-06T08:12:25.283Z","pid":27516,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-06T08:12:25.284Z","pid":27516,"hostname":"Vauban-1-6","msg":"Trace file: "}
+{"level":30,"time":"2025-03-06T08:12:25.296Z","pid":27516,"hostname":"Vauban-1-6","msg":"Changed active context"}
+{"level":30,"time":"2025-03-06T08:12:25.297Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-06T08:12:25.301Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-06T08:12:25.301Z","pid":27516,"hostname":"Vauban-1-6","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-06T08:12:25.391Z","pid":27516,"hostname":"Vauban-1-6","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-06T08:12:25.392Z","pid":27516,"hostname":"Vauban-1-6","msg":"Changed active page"}
+{"level":30,"time":"2025-03-06T08:12:26.893Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-06T08:12:26.898Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-06T08:12:26.898Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-06T08:12:26.943Z","pid":27516,"hostname":"Vauban-1-6","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
+{"level":30,"time":"2025-03-06T08:12:26.943Z","pid":27516,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-06T08:12:26.958Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-06T08:12:26.962Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-06T08:12:26.962Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//span[normalize-space()='Tout accepter'] in page."}
+{"level":30,"time":"2025-03-06T08:12:27.126Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-06T08:12:27.130Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-06T08:12:27.131Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=didomi-popup in page."}
+{"level":30,"time":"2025-03-06T08:12:27.171Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-06T08:12:27.176Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-06T08:12:27.176Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"search-bar\"]//input in page."}
+{"level":30,"time":"2025-03-06T08:12:27.326Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-06T08:12:27.330Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-06T08:12:27.330Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=#search-bar button[type='submit'] in page."}
+{"level":30,"time":"2025-03-06T08:12:28.270Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-06T08:12:28.276Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-06T08:12:28.276Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with id=search-suggestions-banner in page."}
+{"level":30,"time":"2025-03-06T08:12:28.479Z","pid":27516,"hostname":"Vauban-1-6","msg":"Element id=search-suggestions-banner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=search-suggestions-banner')\u001b[22m\n"}
+{"level":30,"time":"2025-03-06T08:12:28.479Z","pid":27516,"hostname":"Vauban-1-6","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-06T08:12:29.311Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-06T08:12:29.317Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-06T08:12:29.317Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=.searchText in page."}
+{"level":30,"time":"2025-03-06T08:12:29.420Z","pid":27516,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=.searchText containing ballon"}
+{"level":30,"time":"2025-03-06T08:12:29.420Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-06T08:12:29.426Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-06T08:12:29.426Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with xpath=(//*[contains(concat(' ', normalize-space(@class), ' '), ' product-list ')]/*)[1]//a[./img] in page."}
+{"level":30,"time":"2025-03-06T08:12:30.305Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-06T08:12:30.310Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-06T08:12:30.310Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-03-06T08:12:30.980Z","pid":27516,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=h1 containing Ballon de Gymnastique Rythmique de 165 mm, rose ultra fluo"}
+{"level":30,"time":"2025-03-06T08:12:30.981Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-06T08:12:30.986Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-06T08:12:30.986Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=.conversion-zone__purchase-cta in page."}
+{"level":30,"time":"2025-03-06T08:12:31.686Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-06T08:12:31.690Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-06T08:12:31.690Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=#popin-cross-sell [slot='title'] in page."}
+{"level":30,"time":"2025-03-06T08:12:32.669Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-06T08:12:32.673Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-06T08:12:32.673Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=[data-href='/checkout/cart'] in page."}
+{"level":30,"time":"2025-03-06T08:12:33.408Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method click"}
+{"level":30,"time":"2025-03-06T08:12:33.414Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-06T08:12:33.414Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-03-06T08:12:34.117Z","pid":27516,"hostname":"Vauban-1-6","msg":"Retrieved text for element css=h1 containing Panier"}
+{"level":30,"time":"2025-03-06T08:12:34.117Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-06T08:12:34.122Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.123Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.125Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.137Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.137Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.139Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.151Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.151Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.153Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.166Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.166Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.169Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.182Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.182Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.184Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.198Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.198Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.207Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.219Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.220Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.228Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.241Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.241Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.242Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.255Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.255Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.257Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.269Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.269Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.272Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.284Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.284Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.286Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.299Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.299Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.301Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.314Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.314Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.315Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.327Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.328Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.330Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.341Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.341Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.343Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.356Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.356Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.358Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.370Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.370Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.372Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.384Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.384Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.386Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.399Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.399Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.401Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.413Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.413Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.415Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.428Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.428Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.431Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.445Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.445Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.448Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.460Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.460Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.462Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.474Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.474Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.477Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.489Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.489Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.491Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.503Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.503Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.505Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.518Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.518Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.520Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.533Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.533Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.535Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.547Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.547Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.549Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.562Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.562Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.565Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.576Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.576Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.578Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.591Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.591Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.593Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.604Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.605Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.606Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.618Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.619Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.621Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.633Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.634Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.636Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.648Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.648Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.650Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.663Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.663Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.665Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.677Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.677Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.679Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.691Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.691Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.693Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.705Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.706Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.708Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.721Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.721Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.723Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.735Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.735Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.737Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.749Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.749Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.750Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.763Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.763Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.765Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.777Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.777Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.779Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.791Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.791Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.793Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.805Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.805Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.807Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.821Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.821Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.823Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.836Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.836Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.839Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.851Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.851Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.853Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.865Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.865Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.868Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.880Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.880Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.882Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.895Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.895Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.897Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.909Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.909Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.911Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.924Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.924Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.926Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.938Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.938Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.940Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.952Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.952Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.955Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.967Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.967Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.969Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.981Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.981Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.983Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.996Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:34.996Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:34.998Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.010Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.010Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:35.012Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.024Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.024Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:35.026Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.038Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.038Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:35.040Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.052Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.052Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:35.054Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.066Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.066Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:35.068Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.081Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.081Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:35.084Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.096Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.096Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:35.098Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.110Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.110Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:35.113Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.125Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.125Z","pid":27516,"hostname":"Vauban-1-6","msg":"Strict mode is disabled, return Locator: css=.cart-line in page."}
+{"level":30,"time":"2025-03-06T08:12:35.127Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-03-06T08:12:35.129Z","pid":27516,"hostname":"Vauban-1-6","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-06T08:12:35.129Z","pid":27516,"hostname":"Vauban-1-6","Take screenshot with options: ":{"path":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\initRobotFramework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-06T08:12:35.223Z","pid":27516,"hostname":"Vauban-1-6","msg":"End of node method takeScreenshot"}
