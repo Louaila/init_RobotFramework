@@ -20,9 +20,28 @@ The sellers are displayed correctly
     
     @{list}=  Create List    Decathlon    Balles de Sport    Sport & Go    Butyjana    Sportano EU
       
-    ${count}=  Count Values In List  @{list}
-    FOR    ${index}    IN RANGE    1    ${count}+1
+    ${count}=  Get Length  ${list}
+    FOR    ${index}    IN RANGE    1    ${count + 1}
         Log    ${index}
-        # //summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div
+        ${seller}=  Get From List    ${list}    ${index - 1}
+
+        Get Text    xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a)[${index}]    contains    ${seller}
     END
-    
+
+there are "${seller_count}" sellers listed
+    # Dans la vrai vie... on ferait ça :
+    Get Element Count    xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a)   equal   ${seller_count}
+
+    # Dans l'exercice... ils nous en veulent :
+    @{list_on_page}=  Get Elements    xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a)
+
+    @{list_of_sellers}=  Create List    
+
+    FOR    ${seller}    IN    @{list_on_page}
+        Log    ${seller}
+        ${text}=  Get Text    ${seller}
+        Append To List    ${list_of_sellers}    ${text}
+    END
+
+    ${list_count}=  Get Length    ${list_of_sellers}
+    Should Be Equal As Integers    ${seller_count}    ${list_count}
